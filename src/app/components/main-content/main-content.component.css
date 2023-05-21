@@ -1,0 +1,41 @@
+p {
+  margin: 0;
+  display: inline-block;
+}
+#title{
+  margin-top: 22px;
+  position: relative;
+}
+#title p {
+  margin-left: 16px;
+  width: 73px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+}
+#title button {
+  position: absolute;
+  right: 18px;
+  background: #F1F3F5;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 0px 7px 10px;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  color: #212529;
+}
+#title button img{
+  margin-left: 16.83px;
+  margin-right: 13.5px;
+
+}
+#app-posts{
+  margin-top: 26px;
+}

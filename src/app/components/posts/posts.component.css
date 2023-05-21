@@ -1,0 +1,204 @@
+p {
+  margin: 0;
+}
+#post {
+  width: 100%;
+  background: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+#post-img {
+  width: 100%;
+  height: 120px;
+  left: 0px;
+  object-fit: cover;
+}
+#article-icon {
+  height: 19px;
+  margin: 14px auto auto 16px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #343a40;
+}
+#article-title {
+  position: relative;
+  width: 100%;
+  margin: 6px 22.67px auto 16px;
+  align-items: center;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #212529;
+}
+#article-title p {
+  width: 75%;
+}
+#article-title img {
+  position: absolute;
+  top: 17.67px;
+  right: 22.67px;
+  margin-right: 22.67px;
+}
+#article-options{
+  /* width: 36px; */
+  /* height: 32px; */
+}
+#article-desc {
+  margin: 10px auto auto 16px;
+  width: 324px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #495057;
+}
+#article-author {
+  width: 100%;
+  margin: 21px 18px auto 16px;
+  align-items: center;
+  position: relative;
+}
+#author-info {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#author-desc {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#author-name {
+  width: 91px;
+  height: 17px;
+  left: 45px;
+  top: 0px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+  color: #212529;
+}
+#views-count {
+  width: 59px;
+  height: 16px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #495057;
+}
+#share-button {
+  position: absolute;
+  right: 18px;
+  top: 0;
+  width: 70px;
+  margin: auto 18px auto;
+  padding: 10px 8px 10px 10px;
+  border: none;
+  background: #f1f3f5;
+  border-radius: 4px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+#event-schedule {
+  margin: 10px auto auto 16px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #212529;
+  display: flex;
+  flex-direction: row;
+}
+#event-schedule p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #212529;
+  margin-right: 40px;
+}
+#visit-website-button {
+  margin: 16px auto 28px auto;
+  text-align: center;
+}
+#visit-website-button button {
+  background: #ffffff;
+  border: 0.7px solid #a9aeb8;
+  border-radius: 8px;
+  width: 90%;
+  white-space: nowrap;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140.4%;
+  padding: 8px 124px;
+  text-align: center;
+  color: #e56135;
+}
+#apply-on-timesjob-button {
+  margin: 16px auto 28px auto;
+  text-align: center;
+}
+#apply-on-timesjob-button button {
+  background: #ffffff;
+  border: 0.7px solid #a9aeb8;
+  border-radius: 8px;
+  white-space: nowrap;
+  width: 90%;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140.4%;
+  padding: 8px 105px;
+  text-align: center;
+  color: #02b875;
+}
+#create-post-button {
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  width: 54px;
+  height: 54px;
+  /* top: 90vh;
+  left: 85vw; */
+  border-radius: 55px;
+  background: linear-gradient(180deg, #ff5c5c 0%, #f0568a 100%);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
+}
+#create-post-button i{
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
