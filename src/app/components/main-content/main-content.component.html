@@ -1,7 +1,54 @@
-<div id="title">
+<div id="title" class="d-lg-none">
   <p>Posts(368)</p>
   <button>Filter: All <img src="../../../assets/images/Vector.svg"></button>
 </div>
-<div id="app-posts">
-  <app-posts></app-posts>
+<div id="title-desktop" class="d-none d-lg-flex">
+  <div id="navbar-left-section">
+    <button>All Posts(32)</button>
+    <button>Article</button>
+    <button>Event</button>
+    <button>Education</button>
+    <button>Job</button>
+  </div>
+  <div id="navbar-right-section">
+    <button id="write-post-button"> Write a Post <img src="../../../assets/images/Vector.svg"></button>
+    <button id="join-group-button"> <img src="../../../assets/images/join-group.svg"> Join Group</button>
+  </div>
+</div>
+<div id="app-posts" class="row">
+  <app-posts class="col-lg-7"></app-posts>
+  <div id="search-locations" class="d-none d-lg-inline col-lg-5">
+    <div id="searchbar">
+      <div>
+        <img src="../../../assets/images/location.png">
+        <input type="text" value="Noida, India" placeholder="Enter Location">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </div>
+      <p> <img src="../../../assets/images/info.png" alt=""> Your location will help us serve better and extend a
+        personalised experience.</p>
+    </div>
+    <section class="recommended-groups-section">
+      <span> <img src="../../../assets/images/like.png" id="like-img"> RECOMMENDED GROUPS</span>
+      <div id="r-profiles">
+        <img src="../../../assets/images/r-profile1.png">
+        <p id="profile-name">Leisure</p>
+        <button>Follow</button>
+      </div>
+      <div id="r-profiles">
+        <img src="../../../assets/images/r-profile2.png">
+        <p id="profile-name">Activism</p>
+        <button>Follow</button>
+      </div>
+      <div id="r-profiles">
+        <img src="../../../assets/images/r-profile3.png">
+        <p id="profile-name">MBA</p>
+        <button>Follow</button>
+      </div>
+      <div id="r-profiles">
+        <img src="../../../assets/images/r-profile4.png">
+        <p id="profile-name">Philosophy</p>
+        <button>Follow</button>
+      </div>
+    </section>
+  </div>
 </div>

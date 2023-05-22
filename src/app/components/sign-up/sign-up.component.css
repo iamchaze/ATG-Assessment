@@ -7,6 +7,20 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
+#ad {
+  background: #effff4;
+  border-radius: 8px 8px 0px 0px;
+  padding: 17px 58px;
+}
+#ad p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #008a45;
+}
 #login-container {
   width: 100%;
   position: absolute;
@@ -17,6 +31,7 @@
   border-radius: 8px 8px 0px 0px;
 }
 #header {
+  position: relative;
   margin: 22px auto;
   width: 100%;
   display: flex;
@@ -32,11 +47,15 @@
   line-height: 23px;
   color: #000000;
 }
-#header img {
+#close-btn {
   width: 20px;
   height: 20px;
   margin-right: 22px;
   color: #212529;
+  font-size: 24px;
+}
+#close-btn:hover {
+  cursor: pointer;
 }
 #login-form input {
   display: block;
@@ -144,11 +163,84 @@
   color: #212529;
 }
 
-#name-input{
+#name-input {
   width: 90%;
   margin: auto;
 }
-#name-input input{
+#name-input input {
   display: inline;
   width: 50%;
+}
+#goToSignin:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  #login-container {
+    width: 736px;
+    height: 513px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #login-form {
+    padding-left: 20px;
+  }
+  #close-btn {
+    color: rgb(209, 209, 209);
+    opacity: 0.5;
+    margin-top: -110px;
+    margin-right: 0;
+  }
+  #auth-buttons button {
+    display: block;
+    width: 320px;
+    font-size: 14px;
+    padding: 12px 110px;
+  }
+  #image-section img {
+    width: 100%;
+  }
+  #image-section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    letter-spacing: -0.008em;
+    color: #000000;
+    opacity: 0.6;
+  }
+  #header {
+    margin-left: 20px;
+  }
+  #header #goToSignin{
+    position: absolute;
+    right: 60px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: right;
+
+  }
+  #header #goToSignin span{
+    color: #2F6CE5;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1400px) {
 }

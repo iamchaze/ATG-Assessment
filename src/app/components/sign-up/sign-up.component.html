@@ -1,34 +1,44 @@
-<app-header></app-header>
+<app-main-content></app-main-content>
 <div id="login-overlay">
   <div id="login-container">
+    <div id="ad" class="d-none d-lg-block">
+      <p>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+    </div>
     <div id="header">
       <p>Create Account</p>
-      <img src="../../../assets/images/close-btn.png">
+      <p id="goToSignin" (click)="goToLogin()" class="d-none d-lg-block">Already have an account? <span>Sign In</span></p>
+      <i id="close-btn" routerLink="/" class="fa fa-times-circle" aria-hidden="true"></i>
     </div>
-    <div id="login-form">
-      <div id="name-input">
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-      </div>
-      <input type="text" placeholder="Email">
-      <div id="password">
-        <input type="password" placeholder="Password">
-        <i class="fa fa-eye" aria-hidden="true"></i>
-      </div>
-      <input type="text" placeholder="Confirm Password">
-      <div id="auth-buttons">
-        <div>
-          <button>Create Account</button>
+    <div class="row">
+      <div id="login-form" class="col-lg-6">
+        <div id="name-input">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
         </div>
-        <div>
-          <p>or, Sign In</p>
+        <input type="text" placeholder="Email">
+        <div id="password">
+          <input type="password" placeholder="Password">
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+        <input type="text" placeholder="Confirm Password">
+        <div id="auth-buttons">
+          <div>
+            <button routerLink="login">Create Account</button>
+          </div>
+          <div id="goToSignin" (click)="goToLogin()" class="d-lg-none">
+            <p >or, Sign In</p>
+          </div>
+        </div>
+        <div id="signin-links">
+          <button> <img src="../../../assets/images/fb-logo.png"> Sign in with Facebook</button>
+          <button> <img src="../../../assets/images/google-logo.png"> Sign in with Google</button>
+        </div>
+        <div id="footer">
+          <p>By signing up, you agree to our Terms & conditions, Privacy policy</p>
         </div>
       </div>
-      <div id="signin-links">
-        <button> <img src="../../../assets/images/fb-logo.png"> Sign in with Facebook</button>
-        <button> <img src="../../../assets/images/google-logo.png"> Sign in with Google</button>
-      </div>
-      <div id="footer">
+      <div id="image-section" class="col-lg-6 d-none d-lg-block">
+        <img src="../../../assets/images/login-panel-image.png" >
         <p>By signing up, you agree to our Terms & conditions, Privacy policy</p>
       </div>
     </div>

@@ -8,3 +8,9 @@ body{
 p{
   margin: 0;
 }
+@media (min-width: 768px){
+  body{
+    scroll-behavior: smooth;
+    /* font-size: 200%; */
+  }
+}

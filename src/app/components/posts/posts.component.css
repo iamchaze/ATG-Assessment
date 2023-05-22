@@ -45,7 +45,7 @@ p {
   right: 22.67px;
   margin-right: 22.67px;
 }
-#article-options{
+#article-options {
   /* width: 36px; */
   /* height: 32px; */
 }
@@ -99,6 +99,22 @@ p {
   font-size: 12px;
   line-height: 16px;
   color: #495057;
+}
+#views-count-desktop {
+  height: 16px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #495057;
+  position: absolute;
+  right: 120px;
+  bottom: 10px;
+  align-items: center;
+}
+#views-count-desktop i{
+  margin-right: 8px;
 }
 #share-button {
   position: absolute;
@@ -190,7 +206,7 @@ p {
   background: linear-gradient(180deg, #ff5c5c 0%, #f0568a 100%);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
 }
-#create-post-button i{
+#create-post-button i {
   height: 100%;
   width: 100%;
   color: white;
@@ -202,3 +218,56 @@ p {
   font-size: 1.5rem;
 }
 
+@media (min-width: 992px) {
+  #post {
+    width: 652px;
+    border: 1px solid silver;
+    border-radius: 5px;
+  }
+  #post-img {
+    height: 220px;
+  }
+  #article-title {
+    margin-left: 18px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  #article-icon {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #article-desc {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #post {
+    width: 452px;
+    border: 0.5px solid silver;
+    border-radius: 5px;
+  }
+  #article-title {
+    margin-left: 18px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #post {
+    width: 552px;
+    border: 0.5px solid silver;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #post {
+    width: 652px;
+    border: 0.5px solid silver;
+    border-radius: 5px;
+  }
+}

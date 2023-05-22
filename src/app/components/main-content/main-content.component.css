@@ -2,7 +2,7 @@ p {
   margin: 0;
   display: inline-block;
 }
-#title{
+#title {
   margin-top: 22px;
   position: relative;
 }
@@ -19,7 +19,7 @@ p {
 #title button {
   position: absolute;
   right: 18px;
-  background: #F1F3F5;
+  background: #f1f3f5;
   border-radius: 4px;
   border: none;
   padding: 8px 0px 7px 10px;
@@ -31,11 +31,191 @@ p {
   line-height: 17px;
   color: #212529;
 }
-#title button img{
+#title button img {
   margin-left: 16.83px;
   margin-right: 13.5px;
-
 }
-#app-posts{
+
+#title-desktop {
+  width: 75%;
+  margin: 40px auto 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid silver;
+  padding-bottom: 10px;
+}
+
+#navbar-left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#navbar-left-section button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  border: none;
+  background-color: inherit;
+  color: #8a8a8a;
+}
+#navbar-left-section button:first-child {
+  color: black;
+}
+#write-post-button {
+  background: #edeef0;
+  border-radius: 4px;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+#join-group-button {
+  margin-left: 16px;
+  border: none;
+  padding: 8px 12px;
+  background: #2f6ce5;
+  border-radius: 4px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+#join-group-button img {
+  margin-right: 5px;
+}
+#navbar-right-section button:first-child img {
+  margin-left: 16px;
+}
+hr {
+  width: 75%;
+  margin: auto;
+}
+#app-posts {
   margin-top: 26px;
+}
+#search-locations {
+  padding: auto;
+  margin: 50px auto;
+  text-align: end;
+  align-items: top;
+  position: relative;
+}
+#search-locations img {
+  width: 10px;
+  height: 15px;
+}
+#search-locations input {
+  border: none;
+  border-bottom: 1px solid silver;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px;
+}
+#search-locations p img {
+  width: 13px;
+  height: 13px;
+}
+#search-locations p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 220px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+section {
+  margin-top: 50px;
+  position: absolute;
+  right: 0;
+  width: 250px;
+}
+section span {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#like-img {
+  width: 15px;
+  height: 13px;
+}
+#r-profiles {
+  width: 100%;
+  align-items: end;
+  margin: 20px auto;
+}
+#r-profiles > img {
+  width: 35px;
+  height: 35px;
+  align-items: start;
+}
+#r-profiles > p {
+  margin: 0;
+  display: inline-block;
+  font-size: 14px;
+  width: 100px;
+  font-weight: bold;
+  text-align: start;
+  margin-left: 10px;
+  color: black;
+}
+
+#r-profiles > button {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  background: #edeef0;
+  border-radius: 14px;
+  text-align: center;
+  border: none;
+  margin: auto 0px auto 16px;
+  padding: 4px 12px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #app-posts {
+    width: 75%;
+    margin: auto;
+    margin-top: 26px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #app-posts {
+    width: 75%;
+    margin: auto;
+    margin-top: 26px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #app-posts {
+    width: 75%;
+    margin: auto;
+    margin-top: 26px;
+  }
 }
