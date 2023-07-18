@@ -1,4 +1,6 @@
 # Assessment
+Hosted on - https://646b6097db4ec3039eb42764--tourmaline-melba-abfbc3.netlify.app/
+In this Assessment my task was to create User Interface equivalent to given Figma Model Using Angular Components.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
